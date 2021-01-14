@@ -4,7 +4,6 @@ max-width: 80rem;
 margin: auto;
 }
 
-
 .portafolio_project{   
     flex-direction: row;
 }
@@ -22,3 +21,43 @@ margin: auto;
     margin: auto;
 }
 
+.c0 {
+    position: relative;
+    background-color:skyblue;
+    color: aliceblue;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: auto;
+  }
+  
+  .c0 .boton-menu{
+  background-color: tomato;
+  align-items: center;
+  }
+  
+  .c0 nav{
+  width: 100%;
+  }
+  
+  .c0 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  
+  .c0 li{
+    display:block;
+    align-items: center;
+    font-size: 2rem;
+    background-color: darkgoldenrod;
+    margin: 1rem;
+    padding: 0rem 1rem;
+  }
+  
+  .c0 a{
+        color: white;
+        text-decoration: none;
+  }
+  
