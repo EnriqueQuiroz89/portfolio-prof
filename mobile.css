@@ -1,0 +1,175 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: white;
+
+}
+
+.main-nav {
+  margin-top: 1rem;
+  padding: 2rem;
+  list-style: none;
+  border-radius: 1rem;
+  background-color: cadetblue;
+}
+
+.main-nav_item {
+  display:inline-block;
+  align-items: center;
+  background-color: darkgoldenrod;
+}
+
+.main-nav_item a {
+        color: blueviolet;
+        padding: 1rem;
+        border-radius: 3rem;
+        text-decoration: none;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c1,
+.c2,
+.c2_5
+.c3,
+.c4,
+.c5,
+.c6 {
+  width: 100%;
+  min-height:10rem;
+  border: black;
+  border-radius: 1rem;
+  margin: 1%;
+}
+
+.c1 {
+  background-color:skyblue;
+  color: aliceblue;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 2rem;
+}
+ 
+.c1 img{
+    width: auto;
+    height: 10rem;
+    position:relative;
+    align-self:center;
+ }
+
+
+.c2 {
+  background-color:darkorchid;
+}
+.c2 p{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.c2 ul{
+  margin: 0rem 1rem; 
+  padding: 1rem;
+  list-style: none;
+  border-radius: 2rem;
+  background-color:white; 
+}
+
+.c2 ul li{
+  margin: .3rem .5rem;
+  padding: .1rem 1rem; 
+  display:inline-block;
+  border-radius: 1rem;
+  background-color: darkgoldenrod;
+  color: aliceblue;
+ }
+ 
+
+.c3 {
+  background-color:skyblue;
+}
+
+.portafolio_project{
+   
+    padding: 1rem;
+    margin: 1rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: chocolate;
+    border-radius: 1rem;
+  
+}
+
+.portafolio-project-details{
+    width: 90%;
+    padding: 1rem;
+    margin: auto;
+    background-color:palegreen;
+}
+
+.portafolio-project-image{
+    width: 90%;
+    padding: 1rem;
+    margin: auto;
+    background-color:lightseagreen;
+}
+
+.portafolio-project-image img{
+    width: 100%;
+
+    padding: 1rem;
+    margin: 1rem;
+ }
+
+.portafolio-project-details a{
+    font-size: 1rem;
+}
+
+.portafolio-project-details ul{
+        list-style: none;
+        border-radius: 2rem;
+        background-color:white; 
+}
+
+.portafolio-project-details li{
+    
+    padding: 1rem; 
+    display:inline-block;
+    padding: 0rem 1rem;
+    border-radius: .4rem;
+    background-color: darkgoldenrod;
+    color: aliceblue;
+}
+
+
+
+.c4 {
+  background-color: orange;
+}
+.c5 {
+  background-color: darkcyan;
+  width: 0%;
+}
+.c6 {
+  background-color:royalblue;
+  width: 0%;
+}
+
