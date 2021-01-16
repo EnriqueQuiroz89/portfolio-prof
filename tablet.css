@@ -1,63 +1,87 @@
-
-.container{
-max-width: 80rem;
-margin: auto;
+.container {
+  max-width: 80em;
+  margin: auto;
 }
 
-.portafolio_project{   
-    flex-direction: row;
+/*Confi del toolbar*/
+header {
+  position: relative;
+  margin-top: 5rv;
+  margin: 0% 5%;
+  width: 90%;
 }
-
-
-.portafolio-project-details{
-    width: 45%;   
-    height: 100%;
+.menu {
+  visibility: visible;
 }
-
-
-
-.portafolio-project-image{
-    width: 50%;
-    margin: auto;
+.boton-menu {
+  visibility: collapse;
 }
 
 .c0 {
-    position: relative;
-    background-color:skyblue;
-    color: aliceblue;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    min-height: auto;
-  }
-  
-  .c0 .boton-menu{
-  background-color: tomato;
-  align-items: center;
-  }
-  
-  .c0 nav{
+  position: relative;
+  color:white;
+  font-size: 1.5rem;
+  min-height: 1rem;
+  width: 90%;
+  margin-top: 2rem;
+
+}
+.c0 .menu nav {
   width: 100%;
-  }
+  min-width: 100%;
+}
+.c0  ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 100%;
+}
+.c0 li {
+  display: block;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 0rem 1rem;
   
-  .c0 ul{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
+}
+.c0 a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #62a3ff;
+}
+
+/*Ajste botones media*/
+.c1 .social-media{
+  width: 14%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem 0rem;
+}
+.c1 .social-media img {
+  width: 100%;
+  height: auto;
   }
-  
-  .c0 li{
-    display:block;
-    align-items: center;
-    font-size: 2rem;
-    background-color: darkgoldenrod;
-    margin: 1rem;
-    padding: 0rem 1rem;
-  }
-  
-  .c0 a{
-        color: white;
-        text-decoration: none;
-  }
-  
+
+
+.portafolio_project {
+  flex-direction: row;
+}
+.portafolio-project-details {
+  width: 45%;
+  height: 100%;
+}
+.portafolio-project-image {
+  width: 50%;
+  margin: auto;
+}
+
+.c4 .social-media{
+
+  width: 11%;  
+  font-size: 1rem;
+ }
