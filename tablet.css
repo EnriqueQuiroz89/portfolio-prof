@@ -80,6 +80,11 @@ nav a:hover {
   margin: auto;
 }
 
+#fix-image{
+  max-width: 60%; 
+  margin: 0% 20%;
+}
+
 .c4 .social-media{
 
   width: 11%;  
