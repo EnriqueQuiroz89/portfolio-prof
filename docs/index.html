@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Profesional</title>
+    <link rel="stylesheet" href="./mobile.css" />
+
+    <link
+      rel="stylesheet"
+      href="./tablet.css"
+      media="screen and (min-width: 600px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./desktop.css"
+      media="screen and (min-width: 900px)"
+    />
+  </head>
+  <body class="container">
+    <header  id="inicio">
+      <div class="c0">
+        <!--Coniene menu flotante y menu normal-->
+
+        <!--Menu flotante-->
+        <div class="boton-menu">
+          <input type="checkbox" id="toggle" />
+          <label for="toggle" class="button"></label>
+
+          <nav class="nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#about-me">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+          </nav>
+        </div>
+        <!--Menu normal-->
+        <div class="menu">
+          <nav>
+            <ul>
+              <li>
+                <a href="#inicio">Inicio</a>
+              </li>
+              <li>
+                <a href="#about-me">Sobre mí</a>
+              </li>
+              <li>
+                <a href="#proyectos">Proyectos</a>
+              </li>
+              <li>
+                <a href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!--Fin Menu flotante-->
+    </header>
+
+    <main>
+      <div class="c1">
+        <p>
+          <figure>
+            <img src="./assets/foto_quiroz.png" alt="" />
+          </figure>
+        </p>
+        <h2>
+          <span>Jorge</span>&nbsp;<span>Enrique</span>&nbsp;
+          <span>Quiroz</span>&nbsp;<span>Gómez</span>
+        </h2>
+
+        <p class="mention">
+          <span>Ingeniero en</span>&nbsp; <span>Sistemas</span>&nbsp;
+          <span>Computacionales</span>&nbsp;
+        </p>
+        <p class="mention">
+          <span>Desarrollador</span>&nbsp; <span>Web y Android</span>
+        </p>
+
+        <hr class="separador" />
+
+        <section class="social-media">
+            <figure>
+              <a href="https://github.com/EnriqueQuiroz89" target="_black">
+                <img src="./assets/git.png" alt="logo github" />
+              </a>
+            </figure>
+            <figure>
+              <a href="https://www.linkedin.com/in/enrique-quiroz-7a27b1201/" target="_black">
+                <img src="./assets/linked.png" alt="logo linkedin" />
+              </a>
+            </figure>
+            <figure>
+              <a href="https://twitter.com/enriquequiroz81" target="_black">
+                <img src="./assets/twiter.png" alt="logo twitter" />
+              </a>
+            </figure>
+        </section>
+      </div>
+
+      <div class="c2" id="about-me">
+        <h2>Sobre Mí</h2>
+        <p>
+          Hola! Soy Jorge Enrique Quiroz Gómez, Ingeniero en Sistemas
+          Computacionales por el Tecnologico de Tianguistenco y Estudiante de
+          Platzi, apasionado por el aprendizaje constante, principalmente del
+          Desarrollo Web, Desarrollo de aplicaciones moviles y de las
+          tecnologias REST API.
+        </p>
+        <p>
+          En mi <a href="https://platzi.com/p/enrique-quiroz/">perfil de Platzi</a> podras encontrar
+           los certificados de los cursos que he aprobado.
+        </p>
+        <p>
+          Actualmente me desempeño como Desarrollo Web usando el stack MEAN, he
+          participado en el Desarrollo FrontEnd de varios proyectos y, a lo
+          largo de mi carrera, he utilizado las siguientes tecnologias
+        </p>
+
+        <div>
+          <ul>
+            <li>Git</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+            <li>Angular</li>
+            <li>Bootstrap</li>
+            <li>NodeJS</li>
+            <li>Firebase</li>
+            <li>Spring</li>
+            <li>Kotlin</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>Firebird</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="c3 portafolio_container" id="proyectos">
+        <h2>Portafolio (Proyectos)</h2>
+        <article class="portafolio_project">
+          <div class="portafolio-project-details">
+            <a target="_black" href="https://spring-market.herokuapp.com/market/api/swagger-ui.html#/auth-controller">REST API con Spring</a>
+            <p>Platzi</p>
+
+            <p>API market es el proyecto del curso Java Spring Framework</p>
+            <ul>
+              <li>Java</li>
+              <li>Spring Framework</li>
+              <li>Heroku</li>
+            </ul>
+          </div>
+          <div class="portafolio-project-image">
+            <figure>
+              <img src="./assets/proyectos-img/spring-api.png" alt="imagen de una laptop" />
+            </figure>
+          </div>
+        </article>
+
+        <hr class="separador-proyecto" />
+
+        <article class="portafolio_project">
+          <div class="portafolio-project-details">
+            <a target="_black" href="https://enriquequiroz89.github.io/market-place-angular-firebase/home">E-commerce con Angular y Firebase</a>
+          
+            <p>Platzi</p>
+            <p>
+              Platzi Store es el proyecto resultado del curso de Angular 9 y del
+              curso de Typescript
+            </p>
+            <ul>
+              <li>Angular</li>
+              <li>Firebase</li>
+              <li>CSS</li>
+              <li>Typescript</li>
+            </ul>
+          </div>
+          <div class="portafolio-project-image">
+            <figure>
+              <img src="./assets/proyectos-img/platzti-store-celular.png" alt="imagen de una laptop" />
+            </figure>
+          </div>
+        </article>
+
+        <hr class="separador-proyecto" />
+
+        <article class="portafolio_project">
+          <div class="portafolio-project-details">
+            <a href="">Web App Cotizaciones en PDF</a>
+            <p>Ferreterias Barbado</p>
+            <p>
+             Aplicación web con conexion a Base de datos para realizar 
+             cotizaciones descargables con formato PDF en sucursales punto de venta .
+            </p>
+            <ul>
+              <li>JavaScript</li>
+              <li>MySQL</li>
+              <li>CSS</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+          <div class="portafolio-project-image">
+            <figure>
+              <img src="./assets/proyectos-img/cotizador-pdf.png" alt="imagen de una laptop" />
+            </figure>
+          </div>
+        </article>
+
+
+        <hr class="separador-proyecto" />
+
+     
+        <article class="portafolio_project">
+          <div class="portafolio-project-details">
+            <a href="">App Android para venta en ruta</a>
+            <p>Barbado</p>
+            <p>
+             Aplicacion Androd que descarga y guarda en SQLite el catalogo de productos y clientes, esto
+             permite al vendedor capturar pedidos en modo Offline, si tiene conexion activa 
+             el pedido se envia al WebService, sin conexion el pedido se almacena para ser 
+             enviado posteriormente
+            </p>
+            <ul>
+              <li>Kotlin</li>
+              <li>SQLite</li>
+              <li>GSON</li>
+            </ul>
+          </div>
+          <div class="portafolio-project-image">
+            <figure>
+              <img src="./assets/proyectos-img/app-barbado.png" alt="imagen de una laptop" />
+            </figure>
+          </div>
+        </article>
+
+        <hr class="separador-proyecto" />
+
+        <article class="portafolio_project">
+          <div class="portafolio-project-details">
+            <a href="">Web Service en PHP</a>
+            <p>Barbado</p>
+            <p>
+            Web Service construida en PHP que recibe pedidos en formato JSON de dispositivos moviles y 
+            los almacena para que posteriormente sean consumidos por un cliente en C# con conexion al ERP.
+            </p>
+            <ul>
+              <li>PHP</li>
+              <li>Json_encode</li>
+              <li>Json_decode</li>
+              <li>REST API</li>
+            </ul>
+          </div>
+          <div class="portafolio-project-image">
+            <figure>
+              <img src="./assets/proyectos-img/webservice.png"  alt="imagen de una laptop" />
+            </figure>
+          </div>
+        </article>
+        <hr class="separador-proyecto" />
+
+        <article class="portafolio_project">
+          <div class="portafolio-project-details">
+            <a href="">Integracion de Cliente REST a Microsip ERP</a>
+            <p>Barbado</p>
+            <p>
+           Cliente REST en C# que se ejecuta de forma periodica y consume pedidos en formato JSON
+            del WebService y si cumplen las condiciones los insertar al ERP Microsip mediante su
+           API Oficial.
+            </p>
+            <ul>
+              <li>C#</li>
+              <li>API Microsip</li>
+              <li>Cliente REST</li>
+            </ul>
+          </div>
+          <div class="portafolio-project-image">
+            <figure class="fix-image">
+              <img src="./assets/proyectos-img/api-integration-big.png"  alt="logotipo microsip" />
+            </figure>
+          </div>
+        </article>
+        <hr class="separador-proyecto" />
+
+
+      </div>
+
+
+      <div class="c4">
+        <div class="social-media">
+          <figure>
+            <a href="https://github.com/EnriqueQuiroz89" target="_black">
+              <img src="./assets/git.png" alt="logo github" />
+            </a>
+          </figure>
+          <figure>
+            <a href="https://www.linkedin.com/in/enrique-quiroz-7a27b1201/" target="_black">
+              <img src="./assets/linked.png" alt="logo linkedin" />
+            </a>
+          </figure>
+          <figure>
+            <a href="https://twitter.com/enriquequiroz81" target="_black">
+              <img src="./assets/twiter.png" alt="logo twitter" />
+            </a>
+          </figure>
+        </div>
+
+        <div class="autor">
+         <p>Developed by @enriquequiroz81</p>
+        </div>
+
+      </div>
+
+      </div>
+    </main>
+
+    <footer id="contacto">
+            
+    </footer>
+  </body>
+</html>
